@@ -1,0 +1,401 @@
+/* font  */
+
+
+@font-face {
+    font-family: "DIN-Light";
+    src: url("./font/DIN-Light.ttf") format(".TTF");
+}
+
+body {
+    font-family: "DIN-Light", sans-serif;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+button:focus-visible {
+    outline: none;
+
+}
+
+button:focus {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 567.7px) {
+    h1{
+  font-size: 30px;
+    }
+    h2{
+        font-size: 28px;
+    }
+h3{
+    font-size: 26px;
+}
+    h4{
+        font-size: 22px;
+        
+    }
+    h5 {
+        font-size: 20px;
+    }
+    h6{
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+    }
+  
+  }
+
+  a{
+    font-size: 14px;
+   }
+
+
+
+/* **********************************************  Banner CSS ****************************************************** */
+
+.new-home-banner{
+    height: 600px;
+}
+
+.home-banner-info {
+    position: absolute;
+    top: 130px;
+    color: white;
+    left: 30px;
+    width: 50%
+}
+
+.info1 {
+    font-weight: bold;
+    font-family: system-ui;
+}
+
+.info2 {
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+.banner-btn-info {
+    border-radius: 2px;
+    font-weight: bold;
+    background-color: #00491766;
+    font-size: 16px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 867.7px) {
+    .home-banner-info{
+        width: 100%;
+        left: 0px;
+        padding: 10px;
+        
+    }
+    .neo-home-banner{
+        height: 400px
+        ;
+    }
+  }
+
+@media only screen and (max-width: 567.7px) {
+    .new-home-banner{
+     height: 350px;
+    }
+    .home-banner-info{
+        top: 0px;
+    }
+  }
+
+/* **************************************************  form  ******************************************************* */
+.neo-form {
+  margin-top: 40px;
+}
+.neo-form-div {
+    width: 400px;
+    box-shadow: 0px 0px 10px 3px #808080a6;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    padding: 20px;
+
+}
+
+.neo-form-btn {
+    border-radius: 10px;
+    background-color: #004249c9;
+    color: white;
+    padding: 5px;
+    height: 45px;
+    width: 100%;
+    border: none;
+
+}
+
+
+.neo-form-field {
+    border: none;
+    border-bottom: 1px solid rgba(168, 157, 157, 0.803);
+    margin-top: 10px;
+    width: 100%;
+}
+
+.neo-form-div h3 {
+   
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 867.7px) {
+    .neo-form-div{
+        position:initial;
+        margin: 20px;
+        width: auto;
+    }
+  }
+/* ***************************************************** Section 2 *********************************************************** */
+.neo-consultation {
+    width: 70%;
+    margin: auto;
+}
+
+.neo-consultation-info {
+    background-color: #add8e6;
+    min-height: 200px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.neo-consultation-img {
+    height: 220px;
+  margin-top: 40px;
+}
+
+.neo-consultation-info h3 {
+    font-weight: bold;
+   
+}
+
+.neo-consultation-div {
+    position: relative;
+    top: -120px;
+}
+
+.neo-img {
+    border-radius: 3px 3px 0px 0px;
+}
+
+.border-radius-left {
+    border-radius: 3px 0px 0px 3px;
+    ;
+}
+
+.border-radius-right {
+    border-radius: 0px 3px 3px 0px;
+}
+
+.neo-heading {
+    position: relative;
+    min-height: 70px;
+    top: -70px;
+    padding: 0px 20px;
+    background-color: #00000070;
+}
+
+.neo-heading h3 {
+  
+    font-weight: bold;
+    color: white;
+}
+@media only screen and (max-width: 867.7px) {
+    .neo-consultation{ 
+        margin: 20px;
+        width: auto;
+    }
+    .neo-consultation-div{
+        position: initial;
+
+    }
+  }
+  @media only screen and (max-width: 567.7px) {
+    .neo-consultation-info{ 
+        min-height: 150px;
+        margin-top: 40px;
+    }
+    .neo-consultation-img{
+        position: initial;
+        margin-top: 40px;
+    }
+  }
+/****************************************************************** SECTION 3******************************************************* */
+
+.neo-content-div {
+    height: 100%;
+}
+
+.neo-text {
+    box-shadow: 2px 1px 3px 2px #8080806b;
+    padding: 17px;
+}
+
+.neo-text h3 {
+    font-weight: bold;
+    color: #1c624c;
+}
+
+.neo-text h2 {
+    font-weight: bold;
+    color: #1c624c;
+}
+
+.neo-list {
+    display: flex;
+}
+
+.neo-list ul {
+    list-style: none;
+}
+
+.neo-details {
+    display: flex;
+}
+
+.neo-details-div {
+    margin: 31px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: initial;
+
+}
+
+.neo-details-div h3 {
+    color: #1c624c;
+}
+@media only screen and (max-width: 567.7px) {
+    .neo-text{ 
+        box-shadow: none;
+    }
+    .neo-list ul{
+        padding: 0px;
+        margin-top: 0px;
+    }
+    .neo-details-div{
+        margin: 0px;
+        
+    }
+  }
+
+/* ************************************************************ SECTION 4 ****************************************************** */
+.neo-card {
+    background-color: #439ea32e;
+    padding: 30px 30px;
+
+}
+
+.neo-card h1 {
+    font-weight: bold;
+}
+
+.neo-card-content {
+    background-color: white;
+    box-shadow: 3px 1px 4px 1px grey;
+    border-radius: 12px;
+    padding: 50px;
+    margin-top: 40px;
+}
+
+.neo-card-img {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+.neo-card-name h2 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.neo-card-name p {
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.neo-card-name {
+    display: flex;
+    padding: 7px 0px 0px 13px;
+}
+
+.icon {
+    width: 100px;
+    height: 20px;
+}
+
+.neo-display-flex {
+    display: flex;
+}
+
+.neo-card-content-vertical {
+    margin-left: 20px;
+}
+
+.double-course-img {
+    height: 20px;
+    width: 25px;
+}
+
+.neo-card-paragraph {
+    margin: 20px;
+}
+
+/* ***************************************************************** SECTION 5 *********************************************************** */
+.neo-know-more-headtag {
+    text-align: center;
+}
+.neo-know-more-headtag h1 {
+    font-weight: bold;
+    margin: 20px;
+}
+.neo-know-more-button {
+    text-align: center;
+
+   
+}
+.neo-know-more-button-font {
+    font-weight: bold;
+    margin: 20px;
+    background-color: #054b4cd6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 50px;
+    width: 190px;
+}
+/* ****************************************************************** SECTION 6************************************************************ */
+.neo-footer-info {
+    text-align: center;
+    margin-top: 20px;
+}
+.neo-footer {
+    background-color:  #054b4cd6 ;
+    height: 50px;
+}
+.neo-footer-info p {
+    color: white;
+    font-weight: normal;
+    padding: 10px;
+    padding: 15px;
+}
